@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+
+img {
+    width: 300px;
+    height: 450px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+main {
+    background-color: white;
+    margin-bottom: 6px;
+    width: 300px;
+    height: 450px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+#cabecalho {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 30px;
+    margin-left: 25px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 2.5px;
+    font-size: 9pt;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-size: 28pt;
+    color: hsl(212, 21%, 14%);
+    margin-top: 20px;
+    margin-left: 25px;
+    line-height: 1.0em;
+}
+
+#texto {
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#preco {
+    display: flex;
+    align-items: center;
+    
+    height: 9vh;
+}
+
+#preco1 {
+    color: hsl(158, 36%, 37%);
+    font-size: 25pt;
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+#preco2 {
+    color: hsla(228, 12%, 48%, 0.801);
+    font-size: 8pt;
+    font-family: "Fraunces", serif;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+
+#link-compra {
+    background-color: hsl(158, 50%, 24%);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 9pt;
+    width: 210px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.attribution {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    color: hsl(228, 12%, 48%);
+    font-size: 9px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 12%, 48%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    background-color: hsla(158, 36%, 37%, 0.466);
+    color: hsl(212, 21%, 14%);
+    border-radius: 10px;
+}
